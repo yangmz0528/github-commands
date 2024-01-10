@@ -28,7 +28,7 @@ This command adds a  file to the staging area, use . to select all files in the 
 ### git commit
 ```git commit -m "MESSAGE"```
 
-This command records or snapshots the file permanently in teh version history
+This command records or snapshots the file permanently in the version history
 
 ### git diff
 This command shows file differences which are not yet staged
@@ -44,3 +44,25 @@ This command lists all the local branches in the current repository
 git checkout <BRANCH_NAME>
 git checkout -b <BRANCH_NAME>
 ```
+This command (without -b) is used to switch from one branch to another
+while adding the -b will creates a new branch and switch to it
+
+### git push
+```sh
+ git push <VAR_NAME> master
+ git push origin master
+ git push --set-upstream origin <BRANCH_NAME>
+ ```
+
+ This command sends commited changes of master branch to your remote repository
+--set-upstream is to link local branch to remote branch
+
+
+ ### git pull 
+ ```sh
+ git pull <REPOSITORY_LINK
+ git pull origin <BRANCH_NAME>
+ ```
+
+ This command fetches and merges changes on the remote server to your working/local directory
+
