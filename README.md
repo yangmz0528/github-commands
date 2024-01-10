@@ -12,18 +12,22 @@ this command sets author name and email address respectively to be used with you
 ### git init
    
 ```git init <REPO_NAME>```
+
 this command used to start a new repository
 
 ### git clone
 ```git clone <URL>```
+
 This command is used to obtain a repository from an existing URL
 
 ### git add
 ```git add <FILE_NAME>```
+
 This command adds a  file to the staging area, use . to select all files in the folder
 
 ### git commit
 ```git commit -m "MESSAGE"```
+
 This command records or snapshots the file permanently in teh version history
 
 ### git diff
