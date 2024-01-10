@@ -4,8 +4,8 @@
 
 1. git config
 ``` sh 
-git config -global user.name "<NAME>"
-git config -global user.emal "<EMAIL>"
+git config --global user.name "<NAME>"
+git config --global user.emal "<EMAIL>"
 ```
 this command sets author name and email address respectively to be used with your commits
 
