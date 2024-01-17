@@ -2,7 +2,7 @@
 
 ## Git Commands
 
-1. git config
+### git config
 ``` sh 
 git config --global user.name "<NAME>"
 git config --global user.email "<EMAIL>"
