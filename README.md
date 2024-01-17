@@ -2,6 +2,7 @@
 
 ## GitHub Authentication
 Refer to this link: [GitHub Authentication]
+
 Different modes of authentication:
 - username and password with 2FA or passkey
 - personal access token
