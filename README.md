@@ -99,7 +99,6 @@ git branch                          # list branches
 git branch <branch_name>            # creates branch
 git branch -d <branch_name>         # delete branch
 git checkout -b <branch_name>       # creates branch, checkout branch
-```"end"
 ```
 
 [GitHub Authentication]: <https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-authentication-to-github#about-authentication-to-github>
