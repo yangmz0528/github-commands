@@ -85,4 +85,21 @@ Note: the key difference between git fetch and pull is that git pull copy change
 ### git remote add [alias] [url]
 add a git URL as an alias
 
+```sh
+git clone <repo_url>
+git add README.md
+git commit -m "<commit_msg>"
+git push
+
+git push
+git diff
+git log
+
+git branch                          # list branches
+git branch <branch_name>            # creates branch
+git branch -d <branch_name>         # delete branch
+git checkout -b <branch_name>       # creates branch, checkout branch
+```"end"
+```
+
 [GitHub Authentication]: <https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-authentication-to-github#about-authentication-to-github>
